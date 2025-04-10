@@ -1,0 +1,32 @@
+/******* Customized Bootstrap ********/
+
+$primary: #6B4F4F;    // Coffee brown – warm, rich, inviting
+$secondary: #2E3A59;  // Deep navy slate – professional and grounding
+$light: #F4ECE6;      // Creamy beige – like steamed milk
+$dark: #1C1C1C;       // Charcoal – sharp, elegant contrast
+
+$font-family-base: "Lato", sans-serif;
+
+$headings-font-family: "Montserrat", sans-serif;
+
+$body-color: #6E7684;
+
+$headings-color: $dark;
+
+$headings-font-weight: 500;
+
+$display-font-weight: 700;
+
+$enable-responsive-font-sizes: true;
+
+$border-radius: 10px;
+
+$border-radius-sm: $border-radius;
+
+$border-radius-lg: $border-radius;
+
+$link-decoration: none;
+
+$enable-negative-margins: true;
+
+@import "bootstrap/scss/bootstrap";

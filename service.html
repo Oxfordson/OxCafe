@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>OxCafe – Coffee and Everything In Between</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="OxCafe, coffee shop, espresso, pastries, tea, cafe in Lagos, brunch, baked goods, specialty coffee, remote work cafe, cozy cafe">
+    <meta name="description" content="OxCafe is your go-to spot for rich coffee, handcrafted drinks, and everything in between. From espresso to light meals, come relax, refuel, and reconnect.">
+    <meta name="author" content="OxCafe Team">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="OxCafe – Coffee and Everything In Between">
+    <meta property="og:description" content="Visit OxCafe for premium coffee, artisanal treats, and a warm community vibe.">
+    <meta property="og:image" content="images/oxcafe-banner.png">
+    <meta property="og:url" content="https://www.oxcafe.com">
+    <meta property="og:type" content="website">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+
+            <!-- Favicon -->
+            <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+            <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+            <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+            <link rel="manifest" href="img/site.webmanifest">
+</head>
+
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+<div class="container-fluid topbar bg-secondary d-none d-xl-block w-100">
+    <div class="container">
+        <div class="row gx-0 align-items-center" style="height: 45px;">
+            <div class="col-lg-6 text-center text-lg-start mb-lg-0">
+                <div class="d-flex flex-wrap">
+                    <a href="#" class="text-muted me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Find Your Nearest OxCafe</a>
+                    <a href="tel:+01234567890" class="text-muted me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+0123 456 7890</a>
+                    <a href="mailto:hello@oxcafe.com" class="text-muted me-0"><i class="fas fa-envelope text-primary me-2"></i>hello@oxcafe.com</a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center text-lg-end">
+                <div class="d-flex align-items-center justify-content-end">
+                    <a href="#" class="btn btn-light btn-sm-square rounded-circle me-3"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="btn btn-light btn-sm-square rounded-circle me-3"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="btn btn-light btn-sm-square rounded-circle me-3"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="btn btn-light btn-sm-square rounded-circle me-0"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Topbar End -->
+
+<!-- Navbar & Hero Start -->
+<div class="container-fluid nav-bar sticky-top px-0 px-lg-4 py-2 py-lg-0">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a href="#" class="navbar-brand p-0">
+                <h1 class="display-6">
+                    <i class="fas fa-mug-hot me-3" style="color: #EA001E;"></i>
+                    <span style="color: #6B4F4F;">Ox</span><span style="color: #2E3A59;">Cafe</span>
+                </h1>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav mx-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">Our Story</a>
+                    <a href="service.html" class="nav-item nav-link">Menu</a>
+                    <a href="blog.html" class="nav-item nav-link">Brew Blog</a>
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">More</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="feature.html" class="dropdown-item">Why OxCafe?</a>
+                            <a href="team.html" class="dropdown-item">Our Baristas</a>
+                            <a href="testimonial.html" class="dropdown-item">Customer Love</a>
+                            <a href="404.html" class="dropdown-item">Oops! Not Found</a>
+                        </div>
+                    </div>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+                <a href="#" class="btn btn-primary rounded-pill py-2 px-4">Order Now</a>
+            </div>
+        </nav>
+    </div>
+</div>
+<!-- Navbar & Hero End -->
+
+
+
+        <!-- Header Start -->
+        <div class="container-fluid bg-breadcrumb">
+            <div class="container text-center py-5" style="max-width: 900px;">
+                <h4 class="text-white display-4 mb-4 wow fadeInDown" data-wow-delay="0.1s">Menu</h4>
+                <ol class="breadcrumb d-flex justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="#">Pages</a></li>
+                    <li class="breadcrumb-item active text-primary">Menu</li>
+                </ol>    
+            </div>
+        </div>
+        <!-- Header End -->
+
+                <!-- Services Start -->
+<div class="container-fluid service py-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+            <h1 class="display-5 text-capitalize mb-3">OxCafe <span class="text-primary">Services</span></h1>
+            <p class="mb-0">At OxCafe, we brew more than coffee — we craft experiences. Whether you're here for your morning espresso, a productive co-working session, or just a cozy space to unwind, we've got a cup and a vibe waiting for you.</p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item p-4">
+                    <div class="service-icon mb-4">
+                        <i class="fa fa-phone-alt fa-2x"></i>
+                    </div>
+                    <h5 class="mb-3">Phone Reservation</h5>
+                    <p class="mb-0">Reserve a table, private corner, or group lounge via a quick call. Never worry about last-minute seat scrambles again.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item p-4">
+                    <div class="service-icon mb-4">
+                        <i class="fa fa-money-bill-alt fa-2x"></i>
+                    </div>
+                    <h5 class="mb-3">Special Rates</h5>
+                    <p class="mb-0">Enjoy discounts during happy hours, loyalty perks, student packages, and weekday deals across our menu.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item p-4">
+                    <div class="service-icon mb-4">
+                        <i class="fa fa-road fa-2x"></i>
+                    </div>
+                    <h5 class="mb-3">Grab-N-Go</h5>
+                    <p class="mb-0">On the move? Order ahead via our app and pick up your order from our express counter — fresh and fast.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item p-4">
+                    <div class="service-icon mb-4">
+                        <i class="fa fa-umbrella fa-2x"></i>
+                    </div>
+                    <h5 class="mb-3">Covered Outdoor Seating</h5>
+                    <p class="mb-0">Enjoy your favorite brew under our umbrella garden setup — perfect for rainy days or cool evenings.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item p-4">
+                    <div class="service-icon mb-4">
+                        <i class="fa fa-building fa-2x"></i>
+                    </div>
+                    <h5 class="mb-3">Remote Workspaces</h5>
+                    <p class="mb-0">Need a quiet spot with fast Wi-Fi and excellent coffee? Our co-work pods offer the perfect balance of productivity and comfort.</p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item p-4">
+                    <div class="service-icon mb-4">
+                        <i class="fa fa-car-alt fa-2x"></i>
+                    </div>
+                    <h5 class="mb-3">Free Coffee Fridays</h5>
+                    <p class="mb-0">Every first Friday of the month, loyal OxCafe patrons get their second cup absolutely free. Join the community vibe!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Services End -->
+
+        <!-- Menu -->
+<div class="container-fluid categories pb-5">
+    <div class="container pb-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+            <h1 class="display-5 text-capitalize mb-3">OxCafe <span class="text-primary">Menu</span></h1>
+            <p class="mb-0">Welcome to OxCafe – where bold brews meet cozy vibes. Explore our curated menu, from gourmet coffee and artisan teas to fresh bakes and light meals that hit the sweet spot between caffeine and comfort.</p>
+        </div>
+        <div class="categories-carousel owl-carousel wow fadeInUp" data-wow-delay="0.1s">
+            <div class="categories-item p-4">
+                <div class="categories-item-inner">
+                    <div class="categories-img rounded-top">
+                        <img src="img/ce.avif" class="img-fluid w-100 rounded-top" alt="Classic Espresso">
+                    </div>
+                    <div class="categories-content rounded-bottom p-4">
+                        <h4>Classic Espresso</h4>
+                        <div class="categories-review mb-4">
+                            <div class="me-3">4.5 Review</div>
+                            <div class="d-flex justify-content-center text-secondary">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star text-body"></i>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="bg-white text-primary rounded-pill py-2 px-4 mb-0">$3.50</h4>
+                        </div>
+                        <div class="row gy-2 gx-0 text-center mb-4">
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-coffee text-dark"></i> <span class="text-body ms-1">Single Shot</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-fire text-dark"></i> <span class="text-body ms-1">Hot</span>
+                            </div>
+                            <div class="col-4">
+                                <i class="fa fa-seedling text-dark"></i> <span class="text-body ms-1">Arabica</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-mug-hot text-dark"></i> <span class="text-body ms-1">Strong</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-hourglass-start text-dark"></i> <span class="text-body ms-1">2 min</span>
+                            </div>
+                            <div class="col-4">
+                                <i class="fa fa-star text-dark"></i> <span class="text-body ms-1">Signature</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary rounded-pill d-flex justify-content-center py-3">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="categories-item p-4">
+                <div class="categories-item-inner">
+                    <div class="categories-img rounded-top">
+                        <img src="img/van.jpg" class="img-fluid w-100 rounded-top" alt="Iced Vanilla Latte">
+                    </div>
+                    <div class="categories-content rounded-bottom p-4">
+                        <h4>Iced Vanilla Latte</h4>
+                        <div class="categories-review mb-4">
+                            <div class="me-3">4.2 Review</div>
+                            <div class="d-flex justify-content-center text-secondary">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star text-body"></i>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="bg-white text-primary rounded-pill py-2 px-4 mb-0">$4.75</h4>
+                        </div>
+                        <div class="row gy-2 gx-0 text-center mb-4">
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-ice-cream text-dark"></i> <span class="text-body ms-1">Chilled</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-mug-hot text-dark"></i> <span class="text-body ms-1">Medium</span>
+                            </div>
+                            <div class="col-4">
+                                <i class="fa fa-leaf text-dark"></i> <span class="text-body ms-1">Vanilla Bean</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-tint text-dark"></i> <span class="text-body ms-1">Milk</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-clock text-dark"></i> <span class="text-body ms-1">5 min</span>
+                            </div>
+                            <div class="col-4">
+                                <i class="fa fa-thumbs-up text-dark"></i> <span class="text-body ms-1">Popular</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary rounded-pill d-flex justify-content-center py-3">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="categories-item p-4">
+                <div class="categories-item-inner">
+                    <div class="categories-img rounded-top">
+                        <img src="img/avo.avif" class="img-fluid w-100 rounded-top" alt="Avocado Toast">
+                    </div>
+                    <div class="categories-content rounded-bottom p-4">
+                        <h4>Avocado Toast</h4>
+                        <div class="categories-review mb-4">
+                            <div class="me-3">4.8 Review</div>
+                            <div class="d-flex justify-content-center text-secondary">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="bg-white text-primary rounded-pill py-2 px-4 mb-0">$6.00</h4>
+                        </div>
+                        <div class="row gy-2 gx-0 text-center mb-4">
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-bread-slice text-dark"></i> <span class="text-body ms-1">Sourdough</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-leaf text-dark"></i> <span class="text-body ms-1">Fresh Avocado</span>
+                            </div>
+                            <div class="col-4">
+                                <i class="fa fa-egg text-dark"></i> <span class="text-body ms-1">Optional Egg</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-hourglass-start text-dark"></i> <span class="text-body ms-1">5 min</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-sun text-dark"></i> <span class="text-body ms-1">Breakfast</span>
+                            </div>
+                            <div class="col-4">
+                                <i class="fa fa-heart text-dark"></i> <span class="text-body ms-1">Vegan Option</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary rounded-pill d-flex justify-content-center py-3">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="categories-item p-4">
+                <div class="categories-item-inner">
+                    <div class="categories-img rounded-top">
+                        <img src="img/mach.avif" class="img-fluid w-100 rounded-top" alt="Matcha Green Tea">
+                    </div>
+                    <div class="categories-content rounded-bottom p-4">
+                        <h4>Matcha Green Tea</h4>
+                        <div class="categories-review mb-4">
+                            <div class="me-3">4.9 Review</div>
+                            <div class="d-flex justify-content-center text-secondary">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="bg-white text-primary rounded-pill py-2 px-4 mb-0">$4.25</h4>
+                        </div>
+                        <div class="row gy-2 gx-0 text-center mb-4">
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-leaf text-dark"></i> <span class="text-body ms-1">Matcha</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-mug-hot text-dark"></i> <span class="text-body ms-1">Hot</span>
+                            </div>
+                            <div class="col-4">
+                                <i class="fa fa-cloud text-dark"></i> <span class="text-body ms-1">Frothy</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-clock text-dark"></i> <span class="text-body ms-1">3 min</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-heartbeat text-dark"></i> <span class="text-body ms-1">Antioxidant</span>
+                            </div>
+                            <div class="col-4">
+                                <i class="fa fa-smile text-dark"></i> <span class="text-body ms-1">Zen Mood</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary rounded-pill d-flex justify-content-center py-3">Order Now</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="categories-item p-4">
+                <div class="categories-item-inner">
+                    <div class="categories-img rounded-top">
+                        <img src="img/choco.avif" class="img-fluid w-100 rounded-top" alt="Choco Mocha Frappe">
+                    </div>
+                    <div class="categories-content rounded-bottom p-4">
+                        <h4>Choco Mocha Frappe</h4>
+                        <div class="categories-review mb-4">
+                            <div class="me-3">4.6 Review</div>
+                            <div class="d-flex justify-content-center text-secondary">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="bg-white text-primary rounded-pill py-2 px-4 mb-0">$5.25</h4>
+                        </div>
+                        <div class="row gy-2 gx-0 text-center mb-4">
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-snowflake text-dark"></i> <span class="text-body ms-1">Iced</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-chocolate-bar text-dark"></i> <span class="text-body ms-1">Choco-rich</span>
+                            </div>
+                            <div class="col-4">
+                                <i class="fa fa-mug-hot text-dark"></i> <span class="text-body ms-1">Creamy</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-tint text-dark"></i> <span class="text-body ms-1">Milk</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-blender text-dark"></i> <span class="text-body ms-1">Blended</span>
+                            </div>
+                            <div class="col-4">
+                                <i class="fa fa-smile text-dark"></i> <span class="text-body ms-1">Mood Booster</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary rounded-pill d-flex justify-content-center py-3">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="categories-item p-4">
+                <div class="categories-item-inner">
+                    <div class="categories-img rounded-top">
+                        <img src="img/spin.avif" class="img-fluid w-100 rounded-top" alt="Spinach Feta Wrap">
+                    </div>
+                    <div class="categories-content rounded-bottom p-4">
+                        <h4>Spinach Feta Wrap</h4>
+                        <div class="categories-review mb-4">
+                            <div class="me-3">4.7 Review</div>
+                            <div class="d-flex justify-content-center text-secondary">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="bg-white text-primary rounded-pill py-2 px-4 mb-0">$5.95</h4>
+                        </div>
+                        <div class="row gy-2 gx-0 text-center mb-4">
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-seedling text-dark"></i> <span class="text-body ms-1">Spinach</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-cheese text-dark"></i> <span class="text-body ms-1">Feta Cheese</span>
+                            </div>
+                            <div class="col-4">
+                                <i class="fa fa-bread-slice text-dark"></i> <span class="text-body ms-1">Whole Wheat</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-sun text-dark"></i> <span class="text-body ms-1">Brunch</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-fire text-dark"></i> <span class="text-body ms-1">Grilled</span>
+                            </div>
+                            <div class="col-4">
+                                <i class="fa fa-thumbs-up text-dark"></i> <span class="text-body ms-1">Favorite</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary rounded-pill d-flex justify-content-center py-3">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="categories-item p-4">
+                <div class="categories-item-inner">
+                    <div class="categories-img rounded-top">
+                        <img src="img/cin.avif" class="img-fluid w-100 rounded-top" alt="Cinnamon Roll">
+                    </div>
+                    <div class="categories-content rounded-bottom p-4">
+                        <h4>Cinnamon Roll</h4>
+                        <div class="categories-review mb-4">
+                            <div class="me-3">4.6 Review</div>
+                            <div class="d-flex justify-content-center text-secondary">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="bg-white text-primary rounded-pill py-2 px-4 mb-0">$3.25</h4>
+                        </div>
+                        <div class="row gy-2 gx-0 text-center mb-4">
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-bread-slice text-dark"></i> <span class="text-body ms-1">Fresh Baked</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-spa text-dark"></i> <span class="text-body ms-1">Cinnamon Glaze</span>
+                            </div>
+                            <div class="col-4">
+                                <i class="fa fa-mug-hot text-dark"></i> <span class="text-body ms-1">Perfect Pair</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-hourglass-half text-dark"></i> <span class="text-body ms-1">4 min</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-heart text-dark"></i> <span class="text-body ms-1">Comfort Food</span>
+                            </div>
+                            <div class="col-4">
+                                <i class="fa fa-sun text-dark"></i> <span class="text-body ms-1">Anytime Treat</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary rounded-pill d-flex justify-content-center py-3">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="categories-item p-4">
+                <div class="categories-item-inner">
+                    <div class="categories-img rounded-top">
+                        <img src="img/chai.avif" class="img-fluid w-100 rounded-top" alt="Chai Latte">
+                    </div>
+                    <div class="categories-content rounded-bottom p-4">
+                        <h4>Chai Latte</h4>
+                        <div class="categories-review mb-4">
+                            <div class="me-3">4.7 Review</div>
+                            <div class="d-flex justify-content-center text-secondary">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="bg-white text-primary rounded-pill py-2 px-4 mb-0">$4.00</h4>
+                        </div>
+                        <div class="row gy-2 gx-0 text-center mb-4">
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-spa text-dark"></i> <span class="text-body ms-1">Spiced</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-mug-hot text-dark"></i> <span class="text-body ms-1">Hot</span>
+                            </div>
+                            <div class="col-4">
+                                <i class="fa fa-seedling text-dark"></i> <span class="text-body ms-1">Organic</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-hourglass text-dark"></i> <span class="text-body ms-1">4 min</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-smile text-dark"></i> <span class="text-body ms-1">Cozy Mood</span>
+                            </div>
+                            <div class="col-4">
+                                <i class="fa fa-heartbeat text-dark"></i> <span class="text-body ms-1">Wellness</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary rounded-pill d-flex justify-content-center py-3">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="categories-item p-4">
+                <div class="categories-item-inner">
+                    <div class="categories-img rounded-top">
+                        <img src="img/berry.avif" class="img-fluid w-100 rounded-top" alt="Berry Yogurt Parfait">
+                    </div>
+                    <div class="categories-content rounded-bottom p-4">
+                        <h4>Berry Yogurt Parfait</h4>
+                        <div class="categories-review mb-4">
+                            <div class="me-3">4.4 Review</div>
+                            <div class="d-flex justify-content-center text-secondary">
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <h4 class="bg-white text-primary rounded-pill py-2 px-4 mb-0">$5.25</h4>
+                        </div>
+                        <div class="row gy-2 gx-0 text-center mb-4">
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-apple-alt text-dark"></i> <span class="text-body ms-1">Mixed Berries</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-ice-cream text-dark"></i> <span class="text-body ms-1">Chilled</span>
+                            </div>
+                            <div class="col-4">
+                                <i class="fa fa-spa text-dark"></i> <span class="text-body ms-1">Greek Yogurt</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-clock text-dark"></i> <span class="text-body ms-1">3 min</span>
+                            </div>
+                            <div class="col-4 border-end border-white">
+                                <i class="fa fa-leaf text-dark"></i> <span class="text-body ms-1">Fresh</span>
+                            </div>
+                            <div class="col-4">
+                                <i class="fa fa-heart text-dark"></i> <span class="text-body ms-1">Healthy</span>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-primary rounded-pill d-flex justify-content-center py-3">Order Now</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<!-- Menu -->
+
+        <!-- Fact Counter -->
+<div class="container-fluid counter bg-secondary py-5">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="counter-item text-center">
+                    <div class="counter-item-icon mx-auto">
+                        <i class="fas fa-thumbs-up fa-2x"></i>
+                    </div>
+                    <div class="counter-counting my-3">
+                        <span class="text-white fs-2 fw-bold" data-toggle="counter-up">829</span>
+                        <span class="h1 fw-bold text-white">+</span>
+                    </div>
+                    <h4 class="text-white mb-0">Happy Guests</h4>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="counter-item text-center">
+                    <div class="counter-item-icon mx-auto">
+                        <i class="fas fa-coffee fa-2x"></i>
+                    </div>
+                    <div class="counter-counting my-3">
+                        <span class="text-white fs-2 fw-bold" data-toggle="counter-up">12K</span>
+                        <span class="h1 fw-bold text-white">+</span>
+                    </div>
+                    <h4 class="text-white mb-0">Cups Served Monthly</h4>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="counter-item text-center">
+                    <div class="counter-item-icon mx-auto">
+                        <i class="fas fa-mug-hot fa-2x"></i>
+                    </div>
+                    <div class="counter-counting my-3">
+                        <span class="text-white fs-2 fw-bold" data-toggle="counter-up">37</span>
+                        <span class="h1 fw-bold text-white">+</span>
+                    </div>
+                    <h4 class="text-white mb-0">Signature Blends</h4>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="counter-item text-center">
+                    <div class="counter-item-icon mx-auto">
+                        <i class="fas fa-users fa-2x"></i>
+                    </div>
+                    <div class="counter-counting my-3">
+                        <span class="text-white fs-2 fw-bold" data-toggle="counter-up">15</span>
+                        <span class="h1 fw-bold text-white">+</span>
+                    </div>
+                    <h4 class="text-white mb-0">Community Events/Month</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Fact Counter -->
+
+        <!-- Testimonial Start -->
+<div class="container-fluid testimonial pb-5">
+    <div class="container pb-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 800px;">
+            <h1 class="display-5 text-capitalize mb-3">What Our <span class="text-primary">Customers Say</span></h1>
+            <p class="mb-0">We’re not just your local coffee shop — we’re your community hub. Here’s what people are saying about their experience at OxCafe.</p>
+        </div>
+        <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+            <div class="testimonial-item">
+                <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i></div>
+                <div class="testimonial-inner p-4">
+                    <img src="img/gra male.jpg" class="img-fluid" alt="">
+                    <div class="ms-4">
+                        <h4>Emma Richards</h4>
+                        <p>Graphic Designer</p>
+                        <div class="d-flex text-primary">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star text-body"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-top rounded-bottom p-4">
+                    <p class="mb-0">OxCafe is my daily escape. The vibe, the brews, and the friendly staff make it feel like home away from home.</p>
+                </div>
+            </div>
+            <div class="testimonial-item">
+                <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i></div>
+                <div class="testimonial-inner p-4">
+                    <img src="img/cons.avif" class="img-fluid" alt="">
+                    <div class="ms-4">
+                        <h4>Daniel Obasi</h4>
+                        <p>Tech Consultant</p>
+                        <div class="d-flex text-primary">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star text-body"></i><i class="fas fa-star text-body"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-top rounded-bottom p-4">
+                    <p class="mb-0">Great place for coffee and remote work. Love the Wi-Fi and power outlets. They nailed it.</p>
+                </div>
+            </div>
+            <div class="testimonial-item">
+                <div class="testimonial-quote"><i class="fa fa-quote-right fa-2x"></i></div>
+                <div class="testimonial-inner p-4">
+                    <img src="img/ngozi.avif" class="img-fluid" alt="">
+                    <div class="ms-4">
+                        <h4>Ngozi Chidera</h4>
+                        <p>Food Blogger</p>
+                        <div class="d-flex text-primary">
+                            <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star text-body"></i><i class="fas fa-star text-body"></i><i class="fas fa-star text-body"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="border-top rounded-bottom p-4">
+                    <p class="mb-0">Tried their mocha and pastries — absolutely divine! It’s the hidden gem every foodie should know.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->
+
+        <!-- Banner Start -->
+<div class="container-fluid banner pb-5 wow zoomInDown" data-wow-delay="0.1s">
+    <div class="container pb-5">
+        <div class="banner-item rounded">
+            <img src="img/banner.avif" class="img-fluid rounded w-100" alt="">
+            <div class="banner-content">
+                <h2 class="text-primary">Welcome to OxCafe</h2>
+                <h1 class="text-white">Your Cozy Spot for Coffee & More</h1>
+                <p class="text-white">Craving something special? We’re just a message away.</p>
+                <div class="banner-btn">
+                    <a href="#" class="btn btn-secondary rounded-pill py-3 px-4 px-md-5 me-2">WhatsApp</a>
+                    <a href="#" class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Banner End -->
+
+        <!-- Footer Start -->
+<div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <div class="footer-item">
+                        <h4 class="text-white mb-4">About Us</h4>
+                        <p class="mb-3">OxCafe is more than just a coffee shop — it’s a cozy space where flavor meets community. From rich espresso to brunch bites and coworking vibes, we serve coffee and everything in between.</p>
+                    </div>
+                    <div class="position-relative">
+                        <input class="form-control rounded-pill w-100 py-3 ps-4 pe-5" type="text" placeholder="Enter your email">
+                        <button type="button" class="btn btn-secondary rounded-pill position-absolute top-0 end-0 py-2 mt-2 me-2">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="text-white mb-4">Quick Links</h4>
+                    <a href="#"><i class="fas fa-angle-right me-2"></i> Our Story</a>
+                    <a href="#"><i class="fas fa-angle-right me-2"></i> Menu</a>
+                    <a href="#"><i class="fas fa-angle-right me-2"></i> Events</a>
+                    <a href="#"><i class="fas fa-angle-right me-2"></i> Team</a>
+                    <a href="#"><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                    <a href="#"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="text-white mb-4">Business Hours</h4>
+                    <div class="mb-3">
+                        <h6 class="text-muted mb-0">Mon - Friday:</h6>
+                        <p class="text-white mb-0">07.00 am to 08.00 pm</p>
+                    </div>
+                    <div class="mb-3">
+                        <h6 class="text-muted mb-0">Saturday:</h6>
+                        <p class="text-white mb-0">08.00 am to 06.00 pm</p>
+                    </div>
+                    <div class="mb-3">
+                        <h6 class="text-muted mb-0">Sunday:</h6>
+                        <p class="text-white mb-0">Closed – Catch us on Monday!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="text-white mb-4">Contact Info</h4>
+                    <a href="#"><i class="fa fa-map-marker-alt me-2"></i> 42 Brew Street, Lagos, Nigeria</a>
+                    <a href="mailto:hello@oxcafe.com"><i class="fas fa-envelope me-2"></i> hello@oxcafe.com</a>
+                    <a href="tel:+2348000000000"><i class="fas fa-phone me-2"></i> +234 800 000 0000</a>
+                    <a href="tel:+2348000000000" class="mb-3"><i class="fas fa-print me-2"></i> +234 800 000 0000</a>
+                    <div class="d-flex">
+                        <a class="btn btn-secondary btn-md-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f text-white"></i></a>
+                        <a class="btn btn-secondary btn-md-square rounded-circle me-3" href="#"><i class="fab fa-twitter text-white"></i></a>
+                        <a class="btn btn-secondary btn-md-square rounded-circle me-3" href="#"><i class="fab fa-instagram text-white"></i></a>
+                        <a class="btn btn-secondary btn-md-square rounded-circle me-0" href="#"><i class="fab fa-linkedin-in text-white"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+<!-- Copyright Start -->
+<div class="container-fluid copyright py-4">
+    <div class="container">
+        <div class="row g-4 align-items-center">
+            <div class="col-md-6 text-center text-md-start mb-md-0">
+                <span class="text-body"><a href="#" class="border-bottom text-white"><i class="fas fa-copyright text-light me-2"></i>OxCafe</a>, All rights reserved.</span>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Copyright End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-secondary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>
